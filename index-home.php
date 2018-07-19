@@ -101,7 +101,7 @@
                     $query->the_post(); ?>
                     <?php $interset = CFS()->get('_do_interesting'); ?>
                     <?php if ($interset) { ?>
-                        <div class="analytic-item">
+                        <div class="analytic-item max-width-">
                             <div class="analytic-item-icon">
                                 <a class="analytic-item-icon-link" href="<?php echo the_permalink(); ?>">
                                     <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="logo">

@@ -3450,7 +3450,7 @@
 
 $('.slideshow').owlCarousel({
     loop:true,
-    nav:true,
+    nav:false,
     dotsContainer:'.slick-dotsContainer',
     items:1
   

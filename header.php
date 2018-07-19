@@ -26,6 +26,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <main class="main">
+       
+          <?php
+          wp_nav_menu( array(
+            'theme_location' => 'menu-2',
+            'menu_id'        => 'header-menu',
+            "items_wrap" => '<ul id="%1$s " class="%2$s header-navigation__items">%3$s</ul>'
+
+        ) );
+        ?>
+    
+</main>
    <!--  <header class="header">
         <div class="container-fluid">
             <div class="header-container">
@@ -89,10 +101,10 @@
     </div>
 </header>
 -->
-<main>
 
 
-    <div class="slideshow owl-carousel owl-theme">
+
+<div class="slideshow owl-carousel owl-theme">
         <?php // задаем нужные нам критерии выборки данных из БД
         $args = array(
             'posts_per_page' => 3,
@@ -141,7 +153,7 @@
 </div>
 
 
-</main>
+
 <div class="loader">
     <div class="loader__inner"></div>
 </div>

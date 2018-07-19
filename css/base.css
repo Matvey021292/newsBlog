@@ -109,3 +109,32 @@
  	flex:1 1 50%;
  }
  
+
+ .max-width-{
+ 	flex:1 1 50% !important;
+ }
+
+
+ .main{
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	height: 100%;
+ 	width: auto;
+ 	z-index: 4444;
+ }
+ .main{
+ 	background: #383b3c;
+ }
+ .header-navigation__items{
+ 	display: flex;
+ 	flex-direction: column;
+ 	height: 100%;
+ }
+ .menu-header-container{
+ 	height: 100%;
+ }
+  .menu-header-container a{
+  	color: #fff;
+  	
+  }
