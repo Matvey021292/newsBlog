@@ -95,7 +95,7 @@
     <div class="slideshow owl-carousel owl-theme">
         <?php // задаем нужные нам критерии выборки данных из БД
         $args = array(
-            'posts_per_page' => 5,
+            'posts_per_page' => 3,
             'orderby' => 'comment_count'
         );
         $query = new WP_Query( $args );
@@ -114,13 +114,11 @@
         } else {
         }
         wp_reset_postdata();?>
-
-
     </div>
     <div class="slick-dotsContainer">   
  <?php // задаем нужные нам критерии выборки данных из БД
  $args = array(
-    'posts_per_page' => 5,
+    'posts_per_page' => 3,
     'orderby' => 'comment_count'
 );
  $query = new WP_Query( $args );
@@ -131,16 +129,18 @@
             <div>   
              <h3 class="owl-arrow-title"><?php the_title();?></h3>
              <p class="owl-arrow-text"><?php do_excerpt(get_the_excerpt(), 20); ?></p>
-            </div>
-            <button class="owl-dot">
+         </div>
+         <button class="owl-dot">
 
-            </button>   
-        </div>
-        <?php  }
-    } else {
-    }
-    wp_reset_postdata();?>
+         </button>   
+     </div>
+     <?php  }
+ } else {
+ }
+ wp_reset_postdata();?>
 </div>
+
+
 </main>
 <div class="loader">
     <div class="loader__inner"></div>

@@ -3455,3 +3455,10 @@ $('.slideshow').owlCarousel({
     items:1
   
 })
+$('#first-slider').owlCarousel({
+    loop:true,
+    nav:false,
+    items:1,
+    dotsContainer:'#dot-show-slider',
+
+})

@@ -221,58 +221,58 @@ $(document).ready(function(){
 })
 
 
-$('.slider-for-news').slick({
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	arrows: false,
-	fade: true,
-     autoplay: true,
-	asNavFor: '.slider-nav-news',
+// $('.slider-for-news').slick({
+// 	slidesToShow: 1,
+// 	slidesToScroll: 1,
+// 	arrows: false,
+// 	fade: true,
+//      autoplay: true,
+// 	asNavFor: '.slider-nav-news',
 
-});
+// });
 
 // $('.slideshow').slick({
 //     slidesToShow: 1,
 //     slidesToScroll: 1,
-//     // arrows: false,
-//     // fade: true,
-//     //  autoplay: true,
-//     // asNavFor: '.slider-nav-news',
+//     arrows: false,
+//     fade: true,
+//      autoplay: true,
+//     asNavFor: '.slider-nav-news',
 
 // });
 
-$('.slider-nav-news').slick({
-	slidesToShow: 4,
-	asNavFor: '.slider-for-news',
-	slidesToScroll: 1,
-	dots: false,
-    arrows: false,
-     autoplay: true,
-	responsive: [
-	{
-		breakpoint: 1224,
-		settings: {
-			slidesToShow: 3
-		}
-	},
-	{
-		breakpoint: 860,
-		settings: {
-			slidesToShow: 2
-		}
-	},
-	{
-		breakpoint: 480,
-		settings: {
-			slidesToShow: 1,
-			slidesToScroll: 1
-		}
-	}
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
-	    ]
-	});
+// $('.slider-nav-news').slick({
+// 	slidesToShow: 4,
+// 	asNavFor: '.slider-for-news',
+// 	slidesToScroll: 1,
+// 	dots: false,
+//     arrows: false,
+//      autoplay: true,
+// 	responsive: [
+// 	{
+// 		breakpoint: 1224,
+// 		settings: {
+// 			slidesToShow: 3
+// 		}
+// 	},
+// 	{
+// 		breakpoint: 860,
+// 		settings: {
+// 			slidesToShow: 2
+// 		}
+// 	},
+// 	{
+// 		breakpoint: 480,
+// 		settings: {
+// 			slidesToShow: 1,
+// 			slidesToScroll: 1
+// 		}
+// 	}
+// 	    // You can unslick at a given breakpoint now by adding:
+// 	    // settings: "unslick"
+// 	    // instead of a settings object
+// 	    ]
+// 	});
 $('.slider-for-video').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
